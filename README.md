@@ -1,3 +1,86 @@
+
+# 🎯 Projet PFE - Plateforme de Recrutement
+
+Ce projet est une application web Full Stack utilisant **Laravel** pour le backend et **React** pour le frontend.
+
+---
+
+## 🧪 Technologies utilisées
+
+- Laravel 10 (API RESTful)
+- React.js (dans `resources/js/frontend1`)
+- MySQL (base de données)
+
+---
+
+## 🚀 Instructions d'installation
+
+### Backend (Laravel)
+
+1. Cloner le projet
+```bash
+git clone https://github.com/fatimazohra28/projet_PFE.git
+cd projet_PFE
+```
+
+2. Installer les dépendances PHP
+```bash
+composer install
+```
+
+3. Copier le fichier `.env`
+```bash
+cp .env.example .env
+```
+
+4. Générer la clé d'application
+```bash
+php artisan key:generate
+```
+
+5. Configurer la base de données dans `.env`, puis :
+```bash
+php artisan migrate
+```
+
+6. Lancer le serveur Laravel :
+```bash
+php artisan serve
+```
+
+---
+
+### Frontend (React)
+
+1. Aller dans le dossier du frontend
+```bash
+cd resources/js/frontend1
+```
+
+2. Installer les dépendances Node.js
+```bash
+npm install
+```
+
+3. Lancer le serveur React :
+```bash
+npm run dev
+```
+
+---
+
+## ✅ Résultat
+
+Une plateforme de recrutement avec :
+- Création de comptes utilisateurs
+- Recherche et publication d’offres
+- Authentification
+- Interface utilisateur moderne
+
+---
+
+🧕 Réalisé par Fatima-Zohra Zelmati
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
